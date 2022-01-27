@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/Ippen_Shonin_Eden.json",
+  "@type" : "sc:Manifest",
+  "label" : "Illustrated Biography of the Holy Man Ippen",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Handrolle mit Tusche und Farbe auf Seide von Hōgen En’i 法眼円伊, 1299]",
+    "@language" : "de"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[https://commons.wikimedia.org, Tokyo National Museum and Kankikō-ji, Japan]",
+  "sequences" : [ {
+    "@id" : "http://40828c03-1c6a-415b-b650-91ea827b8e37",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b029d437-dbe5-459b-ab7f-432f9a74ec8b",
+      "@type" : "sc:Canvas",
+      "label" : "Ippen Shōnin Eden Rolle 7",
+      "height" : 895,
+      "width" : 15705,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://541854d5-c33f-456e-b53e-12c79536571a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/4504158d4ab3096af1a83fbba5228e1e.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/4504158d4ab3096af1a83fbba5228e1e.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 895,
+          "width" : 15705
+        },
+        "on" : "http://b029d437-dbe5-459b-ab7f-432f9a74ec8b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fdd04ae5-671a-40b2-8919-557e1e8cf38d",
+      "@type" : "sc:Canvas",
+      "label" : "Ippen Shōnin Eden Rolle 10, Sektion 2 Itsukushima Schrein",
+      "height" : 186,
+      "width" : 600,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://63bad11c-ac94-43d4-8bcf-9d1bbb631bb6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/b735287be7769721b3879851103bf152.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/b735287be7769721b3879851103bf152.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 186,
+          "width" : 600
+        },
+        "on" : "http://fdd04ae5-671a-40b2-8919-557e1e8cf38d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
