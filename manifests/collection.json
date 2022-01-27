@@ -1,0 +1,13 @@
+{
+  "id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Tzau/IIIF-MAS-M3 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/Ippen_Shonin_Eden.json",
+    "label" : "Illustrated Biography of the Holy Man Ippen"
+  } ]
+}
