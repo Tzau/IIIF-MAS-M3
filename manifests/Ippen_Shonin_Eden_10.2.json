@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/Ippen_Shonin_Eden_10.2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Illustrated Biography of the Holy Man Ippen",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Ippen Shōnin Eden 一遍上人絵伝, Handrolle mit Tusche und Farbe auf Seide von Hōgen En’i 法眼円伊, 1299]",
+    "@language" : "de"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "https://commons.wikimedia.org, Kankikō-ji, Japan",
+  "sequences" : [ {
+    "@id" : "http://69c98306-5842-4d53-ad1c-b8f6b5fa17af",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c46715cf-4ec7-4dab-af0a-d1812c2673b8",
+      "@type" : "sc:Canvas",
+      "label" : "Ippen Shōnin Eden Rolle 10, Sektion 2 Itsukushima Schrein",
+      "height" : 186,
+      "width" : 600,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://02df7e65-8132-4555-be9f-16216ae55c17",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/b735287be7769721b3879851103bf152.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/b735287be7769721b3879851103bf152.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 186,
+          "width" : 600
+        },
+        "on" : "http://c46715cf-4ec7-4dab-af0a-d1812c2673b8"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
