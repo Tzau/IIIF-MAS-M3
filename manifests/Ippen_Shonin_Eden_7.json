@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/Ippen_Shonin_Eden_7.json",
+  "@type" : "sc:Manifest",
+  "label" : "Illustrated Biography of the Holy Man Ippen 7",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Ippen Shōnin Eden 一遍上人絵伝, Handrolle mit Tusche und Farbe auf Seide von Hōgen En’i 法眼円伊, 1299",
+    "@language" : "de"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "https://commons.wikimedia.org, Tokyo National Museum",
+  "sequences" : [ {
+    "@id" : "http://bd34e9ff-dc1f-409a-9eea-9e7b11210ac7",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://beb3bc31-dacc-4e23-ad37-9e208f3dd549",
+      "@type" : "sc:Canvas",
+      "label" : "Ippen Shōnin Eden Rolle 7",
+      "height" : 895,
+      "width" : 15705,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://de092703-27b6-4cea-a53b-43a1a6474cfb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/4504158d4ab3096af1a83fbba5228e1e.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/4504158d4ab3096af1a83fbba5228e1e.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 895,
+          "width" : 15705
+        },
+        "on" : "http://beb3bc31-dacc-4e23-ad37-9e208f3dd549"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
