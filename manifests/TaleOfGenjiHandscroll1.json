@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/TaleOfGenjiHandscroll1.json",
+  "@type" : "sc:Manifest",
+  "label" : "Genji monogatari emaki",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "The Tale of Genji Handscroll, Heian Periode, erste Haelfte 12. Jh., Farbe und Tusche auf Papier",
+    "@language" : "de"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "NDL Digital Collections, Tokugawa Museum, 1936",
+  "sequences" : [ {
+    "@id" : "http://bf5b2f71-be06-4436-97e3-cb4a00c9df22",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a1bd2a09-8cda-4e3a-a65d-d6bdf0826513",
+      "@type" : "sc:Canvas",
+      "label" : "Szene aus Kapitel Takekawa",
+      "height" : 4770,
+      "width" : 6960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e1001ca8-5c52-493e-92b8-cc4f01fe8d99",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000015/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000015",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "default" ],
+              "supports" : [ "regionByPct", "sizeByWh" ]
+            } ]
+          },
+          "height" : 4770,
+          "width" : 6960
+        },
+        "on" : "http://a1bd2a09-8cda-4e3a-a65d-d6bdf0826513"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
