@@ -29,5 +29,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/TaleOfGenjiHandscroll2.json",
     "label" : "Genji monogatari emaki"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/TheTaleOfGenjiHandscroll1.2.json",
+    "label" : "Genji monogatari emaki"
   } ]
 }
