@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/Ippen_Shonin_Eden_10.2.json",
     "label" : "Illustrated Biography of the Holy Man Ippen"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/TaleOfGenjiHandscroll1.json",
+    "label" : "Genji monogatari emaki"
   } ]
 }
