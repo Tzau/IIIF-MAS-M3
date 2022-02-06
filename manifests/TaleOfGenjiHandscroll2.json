@@ -1,0 +1,113 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/TaleOfGenjiHandscroll2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Genji monogatari emaki",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "The Tale of Genji Handscroll, Heian Periode, erste Haelfte 12. Jh., Farbe und Tusche auf Papier",
+    "@language" : "de"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "NDL Digital Collections, Tokugawa Museum, 1936",
+  "sequences" : [ {
+    "@id" : "http://65e0eeb6-cbdd-4fb8-a7ed-0a9395260023",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a78ff5fc-349a-4d31-a6a7-def5b1052922",
+      "@type" : "sc:Canvas",
+      "label" : "Szene aus Kapitel Yomogiu",
+      "height" : 4770,
+      "width" : 6960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://466d12eb-d04c-4ee2-b13c-636e71b10d9d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000005/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000005",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "default" ],
+              "supports" : [ "regionByPct", "sizeByWh" ]
+            } ]
+          },
+          "height" : 4770,
+          "width" : 6960
+        },
+        "on" : "http://a78ff5fc-349a-4d31-a6a7-def5b1052922"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ce6aab97-678e-4996-aadd-8fb5bf6c9ff0",
+      "@type" : "sc:Canvas",
+      "label" : "Szene aus Kapitel Kashiwagi",
+      "height" : 4770,
+      "width" : 6960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e8247197-6732-4f4d-9707-2653a51b4a75",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000011/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000011",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "default" ],
+              "supports" : [ "regionByPct", "sizeByWh" ]
+            } ]
+          },
+          "height" : 4770,
+          "width" : 6960
+        },
+        "on" : "http://ce6aab97-678e-4996-aadd-8fb5bf6c9ff0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://46ff404f-4a95-48ba-b505-cc60d47c6aa8",
+      "@type" : "sc:Canvas",
+      "label" : "Szene aus Kapitel Takekawa",
+      "height" : 4770,
+      "width" : 6960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://973f1ff4-8171-46f0-9872-09acf297467b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000015/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000015",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "default" ],
+              "supports" : [ "regionByPct", "sizeByWh" ]
+            } ]
+          },
+          "height" : 4770,
+          "width" : 6960
+        },
+        "on" : "http://46ff404f-4a95-48ba-b505-cc60d47c6aa8"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
