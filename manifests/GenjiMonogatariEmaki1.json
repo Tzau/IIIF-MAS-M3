@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/GenjiMonogatariEmaki1.json",
+  "@type" : "sc:Manifest",
+  "label" : "The Tale of Genji Handscroll",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Genji monogatari emaki, Handrolle mit Farbe und Tusche auf Papier, Heian Periode, erste Hälfte 12.Jh.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "https://commons.wikimedia.org, Tokugawa Museum",
+  "sequences" : [ {
+    "@id" : "http://db84a94c-416d-4c98-98f4-179afbbc0cad",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e223a8d1-d9f7-4309-8c88-2fc8bb9acd86",
+      "@type" : "sc:Canvas",
+      "label" : "Szene aus Kapitel 15 Yomogiu",
+      "height" : 2496,
+      "width" : 5584,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d08b4150-e095-445f-a99d-f358bf327be2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/75b2a5c8c1a4b36ef521ff8363d071d6.tif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/75b2a5c8c1a4b36ef521ff8363d071d6.tif",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring", "gray" ]
+            } ]
+          },
+          "height" : 2496,
+          "width" : 5584
+        },
+        "on" : "http://e223a8d1-d9f7-4309-8c88-2fc8bb9acd86"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
