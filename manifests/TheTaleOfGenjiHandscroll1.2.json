@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/TheTaleOfGenjiHandscroll1.2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Genji monogatari emaki",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "The Tale of Genji Handscroll, Heian Periode, erste Haelfte 12. Jh., Farbe und Tusche auf Papier",
+    "@language" : "de"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "NDL Digital Collections, Tokugawa Museum, 1936",
+  "sequences" : [ {
+    "@id" : "http://1dfaf721-e1c6-48c4-87e7-f68073114146",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://31c43208-0de4-4847-b8ba-0b0aa07920b9",
+      "@type" : "sc:Canvas",
+      "label" : "Szene aus Kapitel Kashiwagi",
+      "height" : 4770,
+      "width" : 6960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8de672f6-37bb-4927-a4c1-20a91681f33b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000011/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.dl.ndl.go.jp/api/iiif/1685003/R0000011",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "default" ],
+              "supports" : [ "regionByPct", "sizeByWh" ]
+            } ]
+          },
+          "height" : 4770,
+          "width" : 6960
+        },
+        "on" : "http://31c43208-0de4-4847-b8ba-0b0aa07920b9"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
