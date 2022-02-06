@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Tzau.github.io/IIIF-MAS-M3/manifests/TheTaleOfGenjiHandscroll1.4.json",
+  "@type" : "sc:Manifest",
+  "label" : "Genji monogatari emaki",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Tale of Genji Handscroll, Rolle 3, 1911, Tusche und Farbe auf Papier",
+    "@language" : "de"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "NDL Digital Collections",
+  "sequences" : [ {
+    "@id" : "http://5a6489ba-81bb-43f5-b4a5-7469cdf08d0e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://9edebe73-bfbe-40e9-a87a-eced4a7b5d81",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 7164,
+      "width" : 16810,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://119ac5d8-6363-4d84-ab18-4bac6da754b8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.dl.ndl.go.jp/api/iiif/2590782/R0000020/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.dl.ndl.go.jp/api/iiif/2590782/R0000020",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "default" ],
+              "supports" : [ "regionByPct", "sizeByWh" ]
+            } ]
+          },
+          "height" : 7164,
+          "width" : 8405
+        },
+        "on" : "http://9edebe73-bfbe-40e9-a87a-eced4a7b5d81#xywh=6469,15,8405,7164"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7cf8d544-9f9c-4092-8357-907d9ee96a97",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.dl.ndl.go.jp/api/iiif/2590782/R0000021/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.dl.ndl.go.jp/api/iiif/2590782/R0000021",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "default" ],
+              "supports" : [ "regionByPct", "sizeByWh" ]
+            } ]
+          },
+          "height" : 7164,
+          "width" : 8405
+        },
+        "on" : "http://9edebe73-bfbe-40e9-a87a-eced4a7b5d81#xywh=1938,0,8405,7164"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
