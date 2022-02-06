@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 640,
+    "id" : "https://Tzau.github.io/IIIF-MAS-M3/images/DSC00914/canvas/",
+    "label" : {
+      "none" : [ "DSC00914" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://Tzau.github.io/IIIF-MAS-M3/images/DSC00914/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://Tzau.github.io/IIIF-MAS-M3/images/DSC00914/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 20,
+              "height" : 15
+            }, {
+              "width" : 40,
+              "height" : 30
+            }, {
+              "width" : 80,
+              "height" : 60
+            }, {
+              "width" : 160,
+              "height" : 120
+            }, {
+              "width" : 320,
+              "height" : 240
+            }, {
+              "width" : 640,
+              "height" : 480
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 640,
+            "@id" : "https://Tzau.github.io/IIIF-MAS-M3/images/DSC00914",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 480
+          } ],
+          "format" : "image/jpeg",
+          "width" : 640,
+          "id" : "https://Tzau.github.io/IIIF-MAS-M3/images/DSC00914/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 480
+        },
+        "target" : "https://Tzau.github.io/IIIF-MAS-M3/images/DSC00914/canvas/"
+      } ]
+    } ],
+    "height" : 480
+  }, {
     "width" : 2560,
     "id" : "https://Tzau.github.io/IIIF-MAS-M3/images/Sakura/canvas/",
     "label" : {
