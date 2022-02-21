@@ -5,7 +5,7 @@
   "label" : "Genji monogatari emaki",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "Tale of Genji Handscroll, Rolle 3, 1911, Tusche und Farbe auf Papier",
+    "@value" : "Tale of Genji Handscroll, Rolle 3, publ. 1911, Tusche und Farbe auf Papier",
     "@language" : "de"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
@@ -20,7 +20,7 @@
     "canvases" : [ {
       "@id" : "http://9edebe73-bfbe-40e9-a87a-eced4a7b5d81",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Szene aus Kapitel Minori",
       "height" : 7164,
       "width" : 16810,
       "images" : [ {
